@@ -1,0 +1,9 @@
+.main-content {
+    margin-left: 50px; /* Default margin when sidebar is closed */
+    transition: margin-left 0.3s;
+  }
+  
+  .sidebar.open ~ .main-content {
+    margin-left: 210px; /* Margin when sidebar is open */
+  }
+  

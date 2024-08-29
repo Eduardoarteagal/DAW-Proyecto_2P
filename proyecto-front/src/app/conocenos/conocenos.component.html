@@ -1,0 +1,17 @@
+<div class="conocenos-info">
+    <h2 class="display-3">Conoce nuestro staff!</h2>
+    <div *ngFor="let conoce of conocenos">
+      <img [src]="conoce.imagen" alt="{{ conoce.nombre }}">
+      <h3>{{ conoce.nombre }}</h3><br>
+      <p><label>Teléfono:</label> {{ conoce.telefono }}</p>
+      <p><label>Email:</label> {{ conoce.email }}</p>
+      <p><label>Dirección:</label> {{ conoce.direccion }}</p>
+      <hr>
+    </div>
+
+    <div class="mision-vision">
+      <h2>Misión y Visión</h2><br>
+        <p><label>Misión:</label> {{ mision }}</p>
+        <p><label>Visión:</label> {{ vision }}</p>
+      </div>
+</div>

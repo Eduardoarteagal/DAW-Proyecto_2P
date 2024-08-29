@@ -1,0 +1,44 @@
+footer {
+    background-color: #041e42;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px; /* Ajusta el tamaño de fuente del footer */
+    color: #ffffff ;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    flex-basis: 45%;
+  }
+  
+  .footer-right {
+    flex-basis: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ajusta la alineación vertical de los elementos */
+    margin-left: 300px;
+  }
+  
+  .footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-left li {
+    margin-bottom: 10px;
+  }
+  
+  /* Ajusta el tamaño de los iconos de redes sociales */
+  .footer-right ul img {
+    width: 65px; /* Ajusta el ancho de los iconos */
+    height: 65px; /* Ajusta el alto de los iconos */
+    margin: 1 25px; /* Ajusta el margen entre los iconos */
+  }
